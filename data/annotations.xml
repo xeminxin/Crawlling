@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>193371</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-06-14 05:29:45.276401+00:00</created>
+      <updated>2023-06-14 05:31:09.726242+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>193371</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/193371</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>xeminxin</username>
+        <email>smjin0930@korea.ac.kr</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>cat</name>
+          <color>#aaf0d1</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>dog</name>
+          <color>#5986b3</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2023-06-14 06:23:58.849443+00:00</dumped>
+  </meta>
+  <image id="0" name="catanddog.jpg" width="2048" height="1360">
+    <box label="cat" source="manual" occluded="0" xtl="414.23" ytl="675.65" xbr="815.75" ybr="1269.30" z_order="0">
+    </box>
+    <box label="dog" source="manual" occluded="0" xtl="824.39" ytl="224.48" xbr="1793.66" ybr="1290.89" z_order="0">
+    </box>
+  </image>
+</annotations>
